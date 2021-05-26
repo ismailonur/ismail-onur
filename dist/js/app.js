@@ -1,19 +1,12 @@
-/* =======================================================================
-Template Name: Kimso
-Author: Themesio
-Version: 1.0
-Description: This Template is created for web template  */ 
 (function ($) {
     "use strict";
 
-//////////////////////// Window On Load //////////////////
      $(window).on('load', function () {
         $('#preloader').delay(350).fadeOut('slow');
         $('body').delay(350).css({ 'overflow': 'visible' });
     })
 
 
-/////////////////////// Loader /////////////////////
     var angle = 0;
     setInterval(function () {
 
@@ -48,7 +41,6 @@ Description: This Template is created for web template  */
 
 
 
-    /*===============Progress Bar Minimal===================*/
     $('#jq').LineProgressbar({
         percentage: 80,
         fillBackgroundColor: '#61dbfb' 

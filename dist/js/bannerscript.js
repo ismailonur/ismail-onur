@@ -1,5 +1,4 @@
 
-// repeated variables
 var $window = $(window);
 var $root = $('html, body');
 
@@ -20,9 +19,7 @@ function  menuToggler() {
   
  
 }
-/*-------------------------
-        TYPED JS
--------------------------*/
+
 function typedJS() {
 
     "use strict";
