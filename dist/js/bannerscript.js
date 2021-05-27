@@ -1,8 +1,7 @@
-
 var $window = $(window);
 var $root = $('html, body');
 
-$(document).ready(function () {
+$(document).ready(function() {
 
     "use strict";
     typedJS();
@@ -11,13 +10,11 @@ $(document).ready(function () {
     portfolioPopup();
 
 });
-    
 
 
-function  menuToggler() {
+
+function menuToggler() {
     "use strict";
-  
- 
 }
 
 function typedJS() {
@@ -34,12 +31,6 @@ function typedJS() {
     var typed = new Typed(".element", options);
 }
 
-
-
-
-/*-------------------------
-        ISOTOPE JS
--------------------------*/
 function portfolioIsotop() {
 
     "use strict";
@@ -54,7 +45,7 @@ function portfolioIsotop() {
             easing: 'linear'
         }
     });
-    $filter.find('a').on("click",function() {
+    $filter.find('a').on("click", function() {
         var selector = $(this).attr('data-filter');
         $filter.find('a').removeClass('active');
         $(this).addClass('active');
@@ -70,12 +61,3 @@ function portfolioIsotop() {
         return false;
     });
 }
-
-
-
-
-
-
-
-
-
